@@ -10,6 +10,6 @@ union all
             select *
             from
                    {{ ref('prep_*new source*')}}
-                   ```
+ ```
 - run dbt run in the dbt Cloud console
 - Refresh data in Looker report
